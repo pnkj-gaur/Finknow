@@ -1,0 +1,31 @@
+.navbar
+{
+    background-color: #262626;
+}
+.navbar-brand
+{
+    margin-left: 10px;
+    font-size:larger;
+}
+.nav-link
+{
+    margin: auto 10px ;
+    color: red;
+}
+.navbar-dark .navbar-nav .nav-link
+{
+    color:white !important;
+}
+.navbar-dark .navbar-nav .nav-link:hover
+{
+    color:rgba(245, 245, 245, 0.466) !important;
+}
+.dropdown-item:active
+{
+    background-color: silver !important;   
+}
+
+.right-aligned
+{
+    margin-left: auto !important
+}

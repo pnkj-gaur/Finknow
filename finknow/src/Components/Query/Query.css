@@ -1,0 +1,264 @@
+/* .query-sec
+{
+} */
+.accordion
+{
+    width: 75%;
+    margin: 20px auto 80px auto;
+}
+.sol-card:hover
+{
+    transform: none;
+}
+.btn-link
+{
+    text-decoration: none !important;
+    color: rgba(24, 23, 23, 0.692) !important;
+    outline: none;
+    transition: all 0.1s !important;
+    font-weight: 500 !important;
+    
+    
+}
+.sol-body .btn-primary
+{
+    background-color: #009933d7 !important;
+    border:#009933d7 !important;
+    transition: all 0.2s;
+}
+.sol-body .btn-primary:hover
+{
+    background-color: #009933 !important;
+    transform: scale(1.03);
+}
+.btn-link:hover{
+    transform: scale(1.1);
+    font-weight: bold;
+}
+.sol-card .card-header,.query .card-header
+{
+    background-color: rgba(216, 212, 212, 0.507);
+}
+.query
+{
+    width: 90%;
+    margin: 30px auto !important;
+    border: none !important;
+    box-shadow: none;
+ 
+}
+.query .add-sol-btn,.text-area .add-sol-btn,.add-arch-btn
+{
+    background-color: #009933d7 !important;
+    border: #009933d7 !important;
+    margin-top: 10px;
+    margin-right: 10px  ;
+}
+.text-area
+{
+    width: 80%;
+    margin: 40px auto;
+}
+.query .card-header
+{
+    margin-top: 10px;
+}
+.sol-card
+{
+    border: none !important;
+    box-shadow: none;
+}
+.query:hover
+{
+    transform: none;
+}
+.fa {
+    font-size: 40px;
+    cursor: pointer;
+    float: right;
+    user-select: none;
+    padding-top: 1  px;
+  }
+  
+  .fa:hover {
+    color: #009933d7;
+  }
+
+  .vote-count
+  {
+    font-size: 30px;
+    /* margin-bottom: 20px; */
+    padding: 0;
+    margin-right: 15px;
+    float: right;
+  }
+  h3
+  {
+      text-align: center;
+      margin-top: 15px !important;
+      margin-bottom: 0px !important;
+  }
+  .author
+  {
+      color: rgb(139, 138, 138);
+  }
+  .comment-h4
+  {
+      margin-top: 20px !important;
+  }
+@media screen and (max-width: 720px) {
+
+    .accordion
+    {
+        width: 100%;
+        margin: 20px auto 80px auto;
+    }
+    .trial
+    {
+        width: 90% !important;
+        position: absolute;
+        left: 5% !important;
+        top: 80px !important;
+    }
+  }
+  .trial
+  {
+      background-color: whitesmoke;
+      width: 70%;
+      height: 500px;
+      position: absolute;
+      top: 50px;
+      left: 15%;
+      z-index: 1;
+      overflow: auto;
+      
+  }
+  .trial a
+  {
+    cursor: pointer;
+    
+  }
+ 
+  .master
+  {
+      background-color: rgba(0, 0, 0, 0.747);
+      width: 100%;
+      height: 100%;
+      position: fixed;
+      top: 0;
+      left: 0%;
+      z-index: 1;
+     
+  }
+  .comment-btn
+  {
+      margin-left: 10px;
+  }
+  .span
+  {
+      position: absolute;
+      right: 20px;
+      top: 10px;
+      font-size: 30px;
+  }
+.comment-h4
+{
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+
+
+.question
+{
+    font-weight:600;
+}
+
+.title
+{
+    font-weight:700;
+}
+.form-comm
+{
+    width: 80%;
+    margin: auto;
+}
+.form-comm .addtxt {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 13px;
+    background-color: #e5e8ed;
+    font-weight: 500;
+    border-radius: 4px 5px 0 4px !important;
+    margin-top: 0;
+    margin-bottom: 0;
+  
+}
+.post-btn
+{
+    background-color: #009933 !important;
+    border: none !important;
+    
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+.form-control:focus {
+    color: #000;
+}
+
+.second {
+    width: 80%;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 10px 10px 5px #aaaaaa
+}
+
+.text1 {
+    font-size: 13px;
+    font-weight: 500;
+    color: #56575b
+}
+
+.text2 {
+    font-size: 13px;
+    font-weight: 500;
+    margin-left: 6px;
+    color: #56575b
+}
+
+.text3 {
+    font-size: 13px;
+    font-weight: 500;
+    margin-right: 4px;
+    color: #828386
+}
+
+.text3o {
+    color: #00a5f4
+}
+
+.text4 {
+    font-size: 13px;
+    font-weight: 500;
+    color: #828386
+}
+
+.text4i {
+    color: #00a5f4
+}
+
+.text4o {
+    color: white
+}
+
+.thumbup {
+    font-size: 13px;
+    font-weight: 500;
+    margin-right: 5px
+}
+
+.thumbupo {
+    color: #17a2b8
+}

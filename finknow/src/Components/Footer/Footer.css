@@ -1,0 +1,11 @@
+.footer
+{
+    text-align: center;
+    background-color: #262626;
+    height: 60px;
+}
+.footer p
+{
+    color: whitesmoke;
+    margin-top: 20px;
+}

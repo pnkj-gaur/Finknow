@@ -1,0 +1,52 @@
+.QueryForm{
+    height: 80vh;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.QueryForm-Form{
+    padding :16px;
+    margin:auto;
+    
+    border-radius: 16px;
+    min-width: 30%;
+}
+.Query-Form-Heading{
+   
+    color :black;
+    padding-bottom: 8px;
+    border-bottom: 3px solid black;
+    
+}
+
+.query-image{
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 720px) {
+
+    .QueryForm
+    {
+        display: block;
+    }
+    .left{
+        display: none;
+    }
+    
+  }
+  .query-btn
+  {
+    
+        background-color: #009933d7 !important;
+        border: none !important;
+        transition: all 0.3s;
+    
+  }

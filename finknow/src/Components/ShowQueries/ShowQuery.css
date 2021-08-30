@@ -1,0 +1,64 @@
+.card-div
+{
+    width: 90%;
+    margin: auto;
+    height: 950px;
+    overflow-y:auto;
+}
+.card-div::-webkit-scrollbar {
+    display: none;
+}
+.card:hover
+{
+    transform: scale(1.02);
+}
+.card
+{
+    margin: 20px auto;
+    box-shadow: 1px 1px 6px gray;
+    transition: all 0.2s;
+    width: 98%;
+}
+.card-div h2{
+    text-align: center;
+    margin-top: 10px;
+}
+.card-div .get-btn
+{
+    background-color: #009933d7;
+    border: none;
+    margin:10px auto;
+    outline: none;
+    text-decoration: none;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 5px;
+}
+.card-div .get-btn:hover
+{
+    background-color: #029c36;
+}
+.card-div .get-btn:focus
+{
+    background-color: #009933;
+  
+}
+.recent-btn
+{
+    text-decoration: none;
+    color: black;
+}
+
+.recent-btn:hover
+{
+    text-decoration: none;
+    color: #009933;
+}
+
+.del-arch-btn
+{
+    background-color: #009933d7 !important;
+    border: #009933d7 !important;
+    margin-top: -4px;
+    margin-left: 10px  ;
+}

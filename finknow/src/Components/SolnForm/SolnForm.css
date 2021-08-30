@@ -1,0 +1,27 @@
+.SolnForm{
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.SolnForm-Form{
+    padding :16px;
+    margin:auto;
+   min-width: 30%;
+}
+.heading{
+    color:black;
+    padding-bottom: 8px;
+    border-bottom: 3px solid black;
+}
+@media screen and (max-width:720px) {
+    .SolnForm{
+        display: block;
+    }
+    .left{
+        display: none;
+    }
+    
+}

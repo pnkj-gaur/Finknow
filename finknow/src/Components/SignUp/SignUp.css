@@ -1,0 +1,25 @@
+.align{
+
+    padding-top: 40px !important;
+    margin-bottom: 0 !important;
+}
+.img-log
+{
+    background-size: cover;
+    text-align: center;
+    height: 400px;
+    padding: 20px 60px !important;
+    margin-top: 20px !important;
+}
+
+
+@media screen and (max-width: 720px) {
+
+    .img-log{
+        display: none;
+    }
+  }
+
+
+
+
